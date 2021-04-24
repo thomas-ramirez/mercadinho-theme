@@ -1,0 +1,16 @@
+.container :global(.vtex-button):hover {
+	background-color: #ede2cd;
+}
+
+.label {
+	color: #2b1607;
+	font-weight: 600;
+}
+
+.profileIcon {
+	color: #2b1607;
+}
+
+.container :global(.vtex-button__label) {
+	padding: 0 .2rem 0 1rem;
+}
