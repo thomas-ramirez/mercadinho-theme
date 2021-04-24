@@ -1,0 +1,164 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#home",
+      "menu-item#produce",
+      "menu-item#meat-seafood",
+      "menu-item#dairy",
+      "menu-item#beverages",
+      "menu-item#frozen",
+      "menu-item#beer-wine",
+      "menu-item#health-beauty",
+      "menu-item#deli-bakery",
+      "menu-item#pantry",
+      "menu-item#household-pet"
+    ],
+    "props": {
+      "blockClass": "main-menu"
+    }
+  },
+
+  "menu-item#home":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#produce":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Produce",
+        "text": "Produce"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#meat-seafood":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Meat & Seafood",
+        "text": "Meat & Seafood"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#dairy":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Dairy",
+        "text": "Dairy"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#beverages":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Beverages",
+        "text": "Beverages"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#frozen":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Frozen",
+        "text": "Frozen"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#beer-wine":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Beer & Wine",
+        "text": "Beer & Wine"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#health-beauty":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Health & Beauty",
+        "text": "Health & Beauty"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#deli-bakery":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Deli & Bakery",
+        "text": "Deli & Bakery"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#pantry":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Pantry",
+        "text": "Pantry"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#household-pet":{
+    "props": {
+      "id": "menu-item-",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Household & Pet",
+        "text": "Household & Pet"
+      },
+      "blockClass": ["menu-title", "last"]
+    }
+  }
+}

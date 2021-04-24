@@ -1,0 +1,309 @@
+{
+  "store.product": {
+    "children": [
+      "condition-layout.product#recipe"
+
+      // "flex-layout.row#product-breadcrumb",
+      // "flex-layout.row#product-main",
+      // "shelf.relatedProducts#view"
+    ]
+  },
+  "condition-layout.product#recipe": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "93000339"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#product-recipe",
+      "Else": "flex-layout.row#product"
+    }
+  },
+  "store.not-found#product": {
+    "blocks": [
+      //"image#not-found-404",
+      "rich-text#not-found"
+    ]
+  },
+  "image#not-found-404": {
+    "props": {
+      "src": "/assets/404-Page.jpg",
+      "blockClass": "not-found-404",
+      "alt": "PAGE NOT FOUND",
+      "title": "PAGE NOT FOUND"
+    }
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#product-recipe": {
+    "props": {
+      "blockClass": [
+        "mw","product-recipe"
+      ]
+    },
+    "children": [
+      "flex-layout.col#product-recipe"
+    ]
+  },
+  "flex-layout.col#product-recipe": {
+    "props": {
+      "blockClass": [
+        "mw","product-recipe"
+      ]
+    },
+    "children": [
+      "flex-layout.row#product-main-recipe"
+    ]
+  },
+  "flex-layout.row#product-main-recipe": {
+    "props": {
+      "blockClass": ["mw","product-main-recipe"],
+      "colGap": 7,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#right-col-recipe"
+    ]
+  },
+  "flex-layout.col#product-image": {
+    "children": [
+      "flex-layout.row#product-image"
+    ],
+    "props": {
+      "width": "50%",
+      "rowGap": 0,
+      "blockClass": "product-image"
+    }
+  },
+  "flex-layout.col#right-col-recipe": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "rightCol"
+    },
+    "children": [
+      //"flex-layout.row#product-name",
+      "rich-text#recipe-info",
+      "product-assembly-options#recipe",
+      "flex-layout.row#buy-button",
+      "share#product",
+      "flex-layout.row#recipe-ingredients-method"
+    ]
+  },
+
+
+
+
+  "flex-layout.row#product": {
+    "props": {
+      "blockClass": [
+        "mw","product"
+      ]
+    },
+    "children": [
+      "flex-layout.col#product"
+    ]
+  },
+  "flex-layout.col#product": {
+    "props": {
+      "blockClass": [
+        "mw","product"
+      ]
+    },
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts#view"
+    ]
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": ["mw","breadcrumb"]
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "blockClass": ["mw","product-main"],
+      "colGap": 7,
+      "rowGap": 7
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "50%",
+      "rowGap": 0,
+      "blockClass": "product-image"
+    }
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges#flag"
+    ]
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "16:9",
+        "maxHeight": "500"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "rightCol"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#product-info",
+      "product-price#product-details",
+      "sku-selector",
+      "product-quantity",
+      "product-assembly-options#recipe",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "flex-layout.row#description",
+      "share#product"
+    ]
+  },
+  "product-assembly-options#recipe": {
+    "title": "Assembly options",
+    "children": [
+      "assembly-option-input-values"
+    ],
+    "props": {
+      "blockClass": "product-assembly-option"
+    }
+  },
+  "assembly-option-input-values": {
+    "props": {
+      "optionsDisplay": "box"
+    }
+  },
+  "flex-layout.row#product-name": {
+    "children": [
+      "vtex.store-components:product-name"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "product-name"
+    }
+  },
+  "flex-layout.row#product-info": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children":[
+      "vtex.store-components:product-brand",
+      "product-identifier.product#skuId"
+    ]
+  },
+  "product-identifier.product#skuId": {
+    "props": {
+      "idField": "skuReferenceId"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": false,
+      "showSavings": false,
+      "showLabels": false
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+  "shelf.relatedProducts#view": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "recommendation": "editor.relatedProducts.view",
+      "blockClass": "frequently-bought-together",
+      "productList": {
+        "maxItems": 6,
+        "itemsPerPage": 3,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "RELATED ITEMS",
+        "paginationDotsVisibility": "hidden",
+        "fullWidth": "false"
+      }
+    }
+  },
+  "share#product": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "shelf.relatedProducts#view": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "recommendation": "editor.relatedProducts.view",
+      "blockClass": ["mw","frequently-bought-together"],
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "RELATED ITEMS",
+        "paginationDotsVisibility": "hidden",
+        "fullWidth": "false"
+      }
+    }
+  }
+}

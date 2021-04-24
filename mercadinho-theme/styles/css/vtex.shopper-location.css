@@ -1,0 +1,3 @@
+.changeLocationContainer :global(.vtex-input-prefix__group) {
+    border: 1px solid #ccc;
+}

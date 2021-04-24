@@ -1,0 +1,21 @@
+.wrapper {
+	z-index: 1000;
+}
+
+.wrapper--sticky-header {
+    z-index: 1000;
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    background: rgb(248, 243, 235);
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexCol--drawer) {
+	display: none !important;
+}
+
+@media screen and (max-width: 414px) {
+	.wrapper--stuck :global(.vtex-modal-layout-0-x-triggerContainer) {
+		display: none;
+	}
+}

@@ -1,0 +1,345 @@
+{
+  "vtex.menu@2.x:menu#footer-help-center": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menuFooter"
+    },
+    "children": [
+      "rich-text#help-center",
+      "menu-item#frecuentes",
+      "menu-item#changes",
+      "menu-item#contact",
+      "menu-item#stores"
+    ]
+  },
+  "rich-text#help-center": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Help",
+      "textColor": "red",
+      "font": "Helvetica",
+      "blockClass": "help-message"
+    }
+  },
+  "menu-item#frecuentes": {
+    "props": {
+      "id": "menu-item-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#changes": {
+    "props": {
+      "id": "menu-item-cambios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Returns",
+        "text": "Returns"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contact"
+      }
+    }
+  },
+  "menu-item#stores": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "About",
+        "text": "About"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-legal": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menuFooter"
+    },
+    "children": [
+      "rich-text#legal-information",
+      "menu-item#legals",
+      "menu-item#terms-and-conditions",
+      "menu-item#marketplace-terms-and-conditions",
+      "menu-item#privacy-policies"
+    ]
+  },
+  "rich-text#legal-information": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Legal Info",
+      "textColor": "red",
+      "font": "Helvetica",
+      "blockClass": "help-message"
+    }
+  },
+  "menu-item#legals": {
+    "props": {
+      "id": "menu-item-legals",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Jobs",
+        "text": "Jobs"
+      }
+    }
+  },
+  "menu-item#terms-and-conditions": {
+    "props": {
+      "id": "menu-item-erms-and-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Info",
+        "text": "Info"
+      }
+    }
+  },
+  "menu-item#marketplace-terms-and-conditions": {
+    "props": {
+      "id": "menu-item-marketplace-terms-and-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Terms",
+        "text": "Terms"
+      }
+    }
+  },
+  "menu-item#privacy-policies": {
+    "props": {
+      "id": "menu-item-privacy-policies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Privacy",
+        "text": "Privacy"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-interest-information": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menuFooter"
+    },
+    "children": [
+      "rich-text#interest-information",
+      "menu-item#compra-y-recoge",
+      "menu-item#credit-card",
+      "menu-item#donations",
+      "menu-item#shipments"
+    ]
+  },
+  "rich-text#interest-information": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Info",
+      "textColor": "red",
+      "font": "Helvetica",
+      "blockClass": "help-message"
+    }
+  },
+  "menu-item#compra-y-recoge": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Locations",
+        "text": "Locations"
+      }
+    }
+  },
+  "menu-item#credit-card": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Shipping",
+        "text": "Shipping"
+      }
+    }
+  },
+  "menu-item#donations": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Promos",
+        "text": "Promos"
+      }
+    }
+  },
+  "menu-item#shipments": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Gift Cards",
+        "text": "Gift Cards"
+      }
+    }
+  },  
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#help-center-mobile",
+      "menu-item#interest-information-mobile",
+      "menu-item#legal-information-mobile"
+    ]
+  },
+  "menu-item#help-center-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Help",
+        "text": "Help"
+      },
+      "blockClass": "menuItemMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#help-center"]
+  },
+  "vtex.menu@2.x:submenu.accordion#help-center": {
+    "children": ["vtex.menu@2.x:menu#help-center-accordion"]
+  },
+  "vtex.menu@2.x:menu#help-center-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#frecuentes",
+      "menu-item#changes",
+      "menu-item#contact",
+      "menu-item#stores"
+    ]
+  },
+
+  "menu-item#interest-information-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Info",
+        "text": "Info"
+      },
+      "blockClass": "menuItemMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#interest-information"]
+  },
+  "vtex.menu@2.x:submenu.accordion#interest-information": {
+    "children": ["vtex.menu@2.x:menu#footer-interest-information-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-interest-information-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#compra-y-recoge",
+      "menu-item#credit-card",
+      "menu-item#donations",
+      "menu-item#shipments"
+    ]
+  },
+
+  "menu-item#legal-information-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Legal info",
+        "text": "Legal info"
+      },
+      "blockClass": "menuItemMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#legal-information"]
+  },
+  "vtex.menu@2.x:submenu.accordion#legal-information": {
+    "children": ["vtex.menu@2.x:menu#footer-legal-information-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-legal-information-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#legals",
+      "menu-item#terms-and-conditions",
+      "menu-item#marketplace-terms-and-conditions",
+      "menu-item#privacy-policies"
+    ]
+  }
+}
