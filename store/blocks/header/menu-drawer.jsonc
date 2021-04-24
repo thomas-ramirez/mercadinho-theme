@@ -1,0 +1,58 @@
+{
+	"menu#drawer": {
+		"children": [
+			"menu-item#drawer-shop",
+			"menu-item#drawer-community",
+			"menu-item#drawer-our-purpose"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+  "menu-item#drawer-shop":{
+    "props": {
+      "id": "menu-item-main-label",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "SHOP",
+        "text": "SHOP"
+      },
+      "blockClass": "drawer-link"
+    }
+  },
+  "menu-item#drawer-community":{
+    "props": {
+      "id": "menu-item-main-label",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "COMMUNITY",
+        "text": "COMMUNITY"
+      },
+      "blockClass": "drawer-link"
+    }
+  },
+  "menu-item#drawer-our-purpose":{
+    "props": {
+      "id": "menu-item-main-label",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "OUR PURPOSE",
+        "text": "OUR PURPOSE"
+      },
+      "blockClass": "drawer-link"
+    }
+  }
+}
+

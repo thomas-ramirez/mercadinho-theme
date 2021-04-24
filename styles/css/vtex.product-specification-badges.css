@@ -1,0 +1,53 @@
+.groupContainer--flag {
+	margin: 0;
+}
+
+.badgeContainer {
+	background: transparent;
+}
+
+.badgeText--flag {
+	margin: 0;
+}
+
+.badgeText--flag--dollar5-monday {
+    color: rgb(255, 255, 255);
+    transform: rotate(1turn);
+    background: rgb(217, 43, 39);
+    font-size: 12px;
+    line-height: 12px;
+    padding: 7px;
+}
+
+.badgeText--flag--dollar5-monday::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: auto;
+    top: 0px;
+    right: 100%;
+    border-left: 6px solid transparent;
+    border-top: 13px solid rgb(217, 43, 39);
+    border-bottom: 13px solid rgb(217, 43, 39);
+}
+
+.badgeText--flag--dollar5-monday::after {
+	content: "";
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    right: 0px;
+    border-left: 4px solid rgb(163, 32, 29);
+    border-bottom: 4px solid transparent;
+}
+
+.badgeText--grass-fed {
+	color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 12px;
+    padding: 7px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: #00b300;
+    width: 100%;
+}

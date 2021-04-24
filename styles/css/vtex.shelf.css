@@ -1,0 +1,36 @@
+.container {
+	padding-top: 0;
+}
+
+.title {
+	color: #412512;
+	line-height: 24px;
+	border-bottom: 3px solid #eee;
+	width: 80%;
+	padding-bottom: 8px !important;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0 auto 30px;
+	position: relative;
+}
+
+@media screen and (min-width: 1024rem) {
+	.title {
+		width: 405px;
+	}
+}
+
+.title::after {
+	border-bottom: 3px solid #d92b27;
+	content: '_';
+	font-size: 0;
+	display: block;
+	height: 3px;
+	position: absolute;
+	bottom: -3px;
+	width: 175px;
+}
+
+.vtex-shelf-1-x-slide--shelf-top-deals {
+	margin: 0 5px;
+}

@@ -1,0 +1,10 @@
+.buttonLink--quickview-pdp-button {
+	background: transparent;
+	border: 1px solid #ccc;
+	color: #000;
+}
+
+.buttonLink--quickview-pdp-button:hover {
+	color: #000;
+	background: #eee;
+}

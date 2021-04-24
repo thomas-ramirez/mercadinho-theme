@@ -1,0 +1,278 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-slider-banner",
+      "flex-layout.row#shelf-top-deals",
+      //"__fold__.mobile",
+      "rich-text#shop-by-ailes-title",
+      "flex-layout.row#shop-by-ailes-01",
+      "flex-layout.row#shop-by-ailes-02",
+      "info-card#banner-recipes"
+      
+
+      
+
+      // info-cards Shop By Aisle 
+  
+         // Pantry
+
+        // Household & Pet
+
+  
+
+
+
+
+      //"__fold__.desktop"
+
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      // "__fold__.mobile",      
+      // "slider-layout#brands",
+      // "__fold__.desktop",
+      // "rich-text#home-title-banners-01",
+      // "flex-layout.row#home-row-banners-01",
+      // "flex-layout.row#home-row-banners-02",
+      // "flex-layout.row#home-row-banners-03",
+      // "tab-layout#home-tabs",
+      // "rich-text#home-subtitle-01",
+      // "flex-layout.row#home-row-banners-04",
+      // "rich-text#home-subtitle-02",
+      // "flex-layout.row#home-row-banners-05",
+      // "flex-layout.row#home-row-banners-06"
+    ]
+  },
+  "flex-layout.row#main-slider-banner": {
+    "children": [
+      "flex-layout.col#main-slider"
+    ],
+    "props": {
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+  "flex-layout.col#main-slider": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "main-slider"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "blockClass": "home-banner",
+      "images": [
+        {
+          "image": "assets/raleys-home-banner.png",
+          "mobileImage": "assets/raleys-home-banner-mobile.jpg"
+        },
+        {
+          "image": "assets/raleys-home-banner.png",
+          "mobileImage": "assets/raleys-home-banner-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#shelf-top-deals": {
+    "children": [
+      "shelf#top-deals"
+    ],
+    "props": {
+      "blockClass": ["shelf-top-deals", "shelf"]
+    }
+  },
+  "shelf#top-deals": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "blockClass": ["shelf-top-deals", "shelf"],
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "mobileOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top Deals for You"
+      }
+    }
+  },
+  "rich-text#shop-by-ailes-title": {
+    "props": {
+      "text": "Shop By Aisle",
+      "blockClass": "shop-by-ailes-title"
+    }
+  },
+  "flex-layout.row#shop-by-ailes-01": {
+    "children": [
+      "info-card#shop-by-ailes-produce",
+      "info-card#shop-by-ailes-meat-seafood",
+      "info-card#shop-by-ailes-dairy",
+      "info-card#shop-by-ailes-beverages"
+    ],
+    "props": {
+      "blockClass":"shop-by-ailes"
+    }
+  },
+  "info-card#shop-by-ailes-produce": {
+    "props":{
+      "id":"home-shop-by-ailes-produce",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-produce.jpg",
+      "mobileImageUrl":"assets/sba-produce.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-produce"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Produce"
+    }
+  },
+  "info-card#shop-by-ailes-meat-seafood": {
+    "props":{
+      "id":"home-shop-by-ailes-meat-seafood",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-meat-seafood.jpg",
+      "mobileImageUrl":"assets/sba-meat-seafood.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-meat-seafood"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/raleys-ground-beef-93-lean-avg-1lb/p",
+      "imageActionUrl":"/",
+      "callToActionText":"Meat & Seafood"
+    }
+  },
+  "info-card#shop-by-ailes-dairy": {
+    "props":{
+      "id":"home-shop-by-ailes-dairy",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-dairy.jpg",
+      "mobileImageUrl":"assets/sba-dairy.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-dairy"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Dairy"
+    }
+  },
+  "info-card#shop-by-ailes-beverages": {
+    "props":{
+      "id":"home-shop-by-ailes-beverages",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-beverages.jpg",
+      "mobileImageUrl":"assets/sba-beverages.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-beverages"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Beverages"
+    }
+  },
+  "flex-layout.row#shop-by-ailes-02": {
+    "children": [
+      "info-card#shop-by-ailes-frozen",
+      "info-card#shop-by-ailes-beer-wine",
+      "info-card#shop-by-ailes-health-beauty",
+      "info-card#shop-by-ailes-deli-bakery"
+    ],
+    "props": {
+      "blockClass":"shop-by-ailes"
+    }
+  },
+  "info-card#shop-by-ailes-frozen": {
+    "props":{
+      "id":"home-shop-by-ailes-frozen",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-frozen.jpg",
+      "mobileImageUrl":"assets/sba-frozen.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-frozen"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Frozen"
+    }
+  },
+  "info-card#shop-by-ailes-beer-wine": {
+    "props":{
+      "id":"home-shop-by-ailes-beer-wine",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-beer-wine.jpg",
+      "mobileImageUrl":"assets/sba-beer-wine.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-beer-wine"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Beer & Wine"
+    }
+  },
+  "info-card#shop-by-ailes-health-beauty": {
+    "props":{
+      "id":"home-shop-by-ailes-health-beauty",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-health-beauty.jpg",
+      "mobileImageUrl":"assets/sba-health-beauty.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-health-beauty"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Health & Beauty"
+    }
+  },
+  "info-card#shop-by-ailes-deli-bakery": {
+    "props":{
+      "id":"home-shop-by-ailes-deli-bakery",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/sba-deli-bakery.jpg",
+      "mobileImageUrl":"assets/sba-deli-bakery.jpg",
+      "blockClass": ["shop-by-ailes", "shop-by-ailes-deli-bakery"],
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/",
+      "imageActionUrl":"/",
+      "callToActionText":"Beverages"
+    }
+  },
+  "info-card#banner-recipes": {
+    "props":{
+      "id":"home-banner-recipes",
+      "isFullModeStyle":true,
+      "imageUrl":"assets/banner-recipes.jpg",
+      "mobileImageUrl":"assets/banner-recipes.jpg",
+      "blockClass": "banner-recipes",
+      "headline":"",
+      "subhead":"",
+      "callToActionMode":"link",
+      "callToActionUrl":"/vegetarian-moroccan-tagine/p",
+      "imageActionUrl":"/",
+      "callToActionText":"RECIPES"
+    }
+  }
+}
