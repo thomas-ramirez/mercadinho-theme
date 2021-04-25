@@ -9,6 +9,7 @@ Our boilerplate theme to create stores in the VTEX IO platform.
 
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://github.com/vtex-apps/minimum-boilerplate-theme)
+
 ## Dependencies
 All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
 
@@ -89,7 +90,7 @@ Builders:
 - [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
 - [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
 - [Product Kit](https://github.com/vtex-apps/product-kit/blob/master/docs/README.md) :construction: under construction
-
+- [Inteligence Search] ( ) 
 ### Store Pixel Apps
 
  - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
