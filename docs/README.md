@@ -8,16 +8,69 @@ Our boilerplate theme to create stores in the VTEX IO platform.
 ![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
 
 ## Tutorial
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-vtex-io/1)
-
+To understand how things work check our tutorial [Build a store using VTEX IO](https://github.com/vtex-apps/minimum-boilerplate-theme)
 ## Dependencies
 All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+
+### Dependencie Apps
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.product-customizer": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "1.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.product-gifts": "0.x",
+    "vtex.search": "2.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.condition-layout": "2.x"
+
 
 Store framework is the baseline to create any store using _VTEX IO Web Framework_.
 - [Store](https://github.com/vtex-apps/store/blob/master/README.md)
 
 Store GraphQL is a middleware to access all VTEX APIs.
 - [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+
+Builders:
+    "styles": "2.x",
+    "store": "0.x",
+    "sitemap": "0.x",
+    "docs": "0.x",
+    "assets": "0.x"
+
 
 ### Store Component Apps
 - [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
