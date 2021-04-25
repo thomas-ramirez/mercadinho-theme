@@ -169,7 +169,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/raleys-logo.png",
+      "url": "assets/VTEX_Logo.svg.png",
       "width": "100"
     }
   },
@@ -221,9 +221,9 @@
   },
   "logo#mobile": {
     "props": {
-      "title": "Raleys",
+      "title": "Logo",
       "href": "/",
-      "url": "assets/raleys-logo.png",
+      "url": "assets/VTEX_Logo.svg.png",
       "width": "100"
     }
   },
